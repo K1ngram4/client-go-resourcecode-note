@@ -28,7 +28,7 @@ store是工具接口，提供了一组操作缓存的函数，是DeltaFIFO，Que
 ### 7)enqueue object key 8) get key
 将对象key存储到了workqueue中，然后process item流程通过key从indexer中获取对象执行业务流程
 
-##总结
+## 总结
 以上就是informer组件的简单介绍和整体运行流程梳理，后面尝试通过源码分析，慢慢验证这些流程的执行过程，感受一下kubernetes源码的魅力
 
 
